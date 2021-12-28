@@ -21,7 +21,8 @@ int main(){
 
     cout<<"result is: "<<endl;
     for(int i=0;i<n;i++){
-        cout<<
+        cout<<arr[i];
     }
     return 0;
+
 }
