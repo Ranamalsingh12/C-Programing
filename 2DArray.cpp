@@ -5,7 +5,8 @@ using namespace std;
 int main(){
 
     int n,m;
-    cin>>n,m;
+    cin>>n;
+    cin>>m;
 
     // initialising the 2D array
     int arr[n][m];
