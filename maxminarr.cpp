@@ -22,7 +22,7 @@ int getMin(int num[], int n){
 
 
 int main(){
-    int size;
+    int size;>
     cin>>size;
 
     int num[100];
