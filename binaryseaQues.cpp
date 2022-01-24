@@ -55,7 +55,14 @@ int lastOcc(int arr[],int n, int key){
 int main(){
     int even[6] = {1,2,3,3,3,5};
     
+    //First and last occurence
+    // cout << "First Occurence of 3 is "<<firstOcc(even,6,3)<<endl;
+    // cout << "last Occurence of 3 is "<<lastOcc(even,6,3)<<endl;
 
-    cout << "First Occurence of 3 is "<<firstOcc(even,6,3)<<endl;
-    cout << "last Occurence of 3 is "<<lastOcc(even,6,3)<<endl;
+
+    int firstIndex = firstOcc(even,6,3);
+    int lastIndex = lastOcc(even,6,3);
+
+    int totalOcc = lastIndex - firstIndex + 1;
+    cout<<"Total no of occurence of 3 are "<< totalOcc << endl;
 }
