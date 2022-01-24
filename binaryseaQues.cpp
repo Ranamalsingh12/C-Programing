@@ -59,10 +59,13 @@ int main(){
     // cout << "First Occurence of 3 is "<<firstOcc(even,6,3)<<endl;
     // cout << "last Occurence of 3 is "<<lastOcc(even,6,3)<<endl;
 
-
+    //Total no of occurence
     int firstIndex = firstOcc(even,6,3);
     int lastIndex = lastOcc(even,6,3);
 
     int totalOcc = lastIndex - firstIndex + 1;
     cout<<"Total no of occurence of 3 are "<< totalOcc << endl;
+
+    //peak index in the mountain
+    
 }
