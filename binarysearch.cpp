@@ -27,6 +27,8 @@ int main(){
     int odd[5]={3,8,11,14,16};
 
     int index = search(even,6,12);
+    int indexOdd = search(odd,6,12);
+
 }
 
 
