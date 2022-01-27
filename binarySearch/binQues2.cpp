@@ -23,5 +23,5 @@ int main(){
     //Finding the pivot
     int arr[5] = {8, 10, 17, 1, 3};
 
-    cout << "Pivot is " << getPivot(arr, 5) << endl;
+    cout << "Pivot is at" << getPivot(arr, 5) << endl;
 }
